@@ -1,0 +1,55 @@
+/* App.css */
+
+.Root {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0;
+}
+
+.App-header {
+  flex: 0 0 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.App-header img {
+  max-width: 33%;
+  max-height: 10rem;
+}
+
+.App-header h1 {
+  flex: 1;
+  text-align: start;
+  font-size: 2rem;
+  color: rgb(222, 11, 11);
+}
+
+.App-body {
+  flex: 1;
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  border-top: 0.3rem rgb(222, 11, 11) solid;
+}
+
+.App-body p {
+  font-size: 1rem;
+  color: #000000;
+}
+
+.App-footer {
+  flex: 0 0 15%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 0.3rem rgb(222, 11, 11) solid;
+  width: 100%;
+}
+
+.App-footer p {
+  font-size: 1rem;
+  color: #000000;
+}
